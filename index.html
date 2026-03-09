@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Carter — Full Stack Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Geist+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- CURSOR -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- NAV -->
+    <nav>
+      <a href="#hero" class="nav-logo">Alex <span>Carter</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" id="hero" style="position: relative">
+      <div class="hero-eyebrow">Full Stack Developer</div>
+      <h1 class="hero-name">Building<br />things for<br />the <em>web.</em></h1>
+      <p class="hero-tagline">
+        I craft fast, accessible, and elegant digital products — from
+        pixel-perfect interfaces to rock-solid backend systems.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Get in touch ↗</a>
+        <a href="#about" class="btn-secondary">Learn more</a>
+      </div>
+      <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        Scroll to explore
+      </div>
+    </div>
+
+    <div class="section-rule"></div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-grid">
+        <div>
+          <div class="section-label" data-num="01">About Me</div>
+          <h2 class="about-heading reveal">
+            Turning <em>ideas</em> into<br />real products.
+          </h2>
+          <p class="about-body reveal" style="transition-delay: 0.1s">
+            I'm a full stack developer with a passion for creating seamless
+            digital experiences. I love working across the entire stack — from
+            designing intuitive UIs to architecting scalable APIs.
+          </p>
+          <p class="about-body reveal" style="transition-delay: 0.2s">
+            When I'm not coding, you'll find me exploring new technologies,
+            contributing to open source, or obsessing over good typography and
+            clean design systems.
+          </p>
+        </div>
+        <div class="reveal" style="transition-delay: 0.15s">
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-num">1<span>+</span></div>
+              <div class="stat-label">Years experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">20<span>+</span></div>
+              <div class="stat-label">Projects shipped</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">10<span>+</span></div>
+              <div class="stat-label">Technologies</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">∞</div>
+              <div class="stat-label">Cups of coffee</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-rule"></div>
+
+    <!-- SKILLS -->
+    <section id="skills" style="max-width: 100%">
+      <div class="skills-inner">
+        <div class="section-label reveal" data-num="02">Skills</div>
+        <h2 class="skills-heading reveal">
+          The tools<br />I <em>work with.</em>
+        </h2>
+        <div class="skills-categories reveal" style="transition-delay: 0.15s">
+          <div class="skill-cat">
+            <div class="skill-cat-title">Frontend</div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-name">React</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 62%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 85%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">CSS / Tailwind</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 90%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Html</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 95%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-cat">
+            <div class="skill-cat-title">Backend</div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-name">Node.js</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 70%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Mongo DB</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-cat">
+            <div class="skill-cat-title">Tooling & Cloud</div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-name">AWS / ImageKit</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 48%"></div>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Git / CI-CD</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 50%"></div>
+                </div>
+              </li>
+              <!-- <li class="skill-item">
+                <span class="skill-name">Linux / Bash</span>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar" style="--w: 72%"></div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-rule"></div>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-grid">
+        <div>
+          <div class="section-label reveal" data-num="03">Contact</div>
+          <h2 class="contact-heading reveal">
+            Let's build<br />something <em>great.</em>
+          </h2>
+          <p class="contact-sub reveal" style="transition-delay: 0.1s">
+            Open to full-time roles, freelance projects, and interesting
+            collaborations. Don't hesitate to reach out.
+          </p>
+          <div class="contact-links reveal" style="transition-delay: 0.2s">
+            <a href="mailto:as2227741@gmail.com" class="contact-link">
+              <span class="link-platform">Email</span>
+              <span class="link-value">as2227741@gmail.com</span>
+              <span class="link-arrow">↗</span>
+            </a>
+            <a href="https://github.com" target="_blank" class="contact-link">
+              <span class="link-platform">GitHub</span>
+              <span class="link-value">github.com/as2227741-beep</span>
+              <span class="link-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form reveal" style="transition-delay: 0.15s">
+          <div class="form-field">
+            <label class="form-label">Your name</label>
+            <input class="form-input" type="text" placeholder="Jane Smith" />
+          </div>
+          <div class="form-field">
+            <label class="form-label">Email address</label>
+            <input
+              class="form-input"
+              type="email"
+              placeholder="jane@company.com"
+            />
+          </div>
+          <div class="form-field">
+            <label class="form-label">Message</label>
+            <textarea
+              class="form-textarea"
+              placeholder="Tell me about your project…"
+            ></textarea>
+          </div>
+          <button class="form-btn">Send message →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <span>© 2026 Alex Carter</span>
+      <span>Full Stack Developer</span>
+      <span>Designed & built with care</span>
+    </footer>
+
+    <script src="node.js"></script>
+  </body>
+</html>
